@@ -1,3 +1,16 @@
 .home-wrapper {
-
+  width: 100%;
+  height: 100%;
+  .top {
+    background: url('../../assets/images/top-image.png');
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+  }
+  .pink-line {
+    background: url('../../assets/images/pink-line.png');
+    height: 40px;
+    width: 100%;
+    transform: rotateY(180deg) scale(1, -1);
+  }
 }

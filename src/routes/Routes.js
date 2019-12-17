@@ -4,6 +4,8 @@ import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 import HomeComponent from '../components/Home/HomeComponent'
 import AboutComponent from '../components/About/AboutComponent'
 
+import './styles.scss'
+
 class Routes extends PureComponent {
   render () {
     return (

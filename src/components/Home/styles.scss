@@ -6,6 +6,47 @@
     background-size: cover;
     width: 100%;
     height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content {
+      width: 950px;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      .title {
+        text-transform: uppercase;
+        font-size: 40px;
+        color: white;
+      }
+      .content-text {
+        color: white;
+        font-size: 19px;
+        letter-spacing: 1px;
+        line-height: 38px;
+      }
+      .underscore {
+        width: 150px;
+        height: 2px;
+        outline: none;
+        background: #ed145b;
+        border-radius: 45px;
+        border: 1px solid #ed145b;
+      }
+      .show-more-button {
+        background: #ed145b;
+        width: 200px;
+        height: 50px;
+        border-radius: 24px;
+        border: none;
+        margin: 0 auto;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        line-height: 38px;
+      }
+    }
   }
   .pink-line {
     background: url('../../assets/images/pink-line.png');

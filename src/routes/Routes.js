@@ -5,12 +5,14 @@ import HomeComponent from '../components/Home/HomeComponent'
 import AboutComponent from '../components/About/AboutComponent'
 
 import './styles.scss'
+import HeaderComponent from '../components/Header/HeaderComponent'
 
 class Routes extends PureComponent {
   render () {
     return (
       <div className='app-routes'>
         <BrowserRouter>
+          <HeaderComponent />
           <Switch>
             <Route path='/home' component={HomeComponent} />
             <Route path='/about' component={AboutComponent} />
